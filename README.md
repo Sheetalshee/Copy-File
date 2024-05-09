@@ -31,7 +31,9 @@ with open ("text.txt") as fp:
 ```
 ### OUTPUT:
 ![243200118-c30522e5-1f21-48eb-a61a-9bb220640fcf](https://github.com/Sheetalshee/Copy-File/assets/144979107/b4ad647f-5589-4331-a3f8-c6fb00ea3e9e)
-![243200120-e9e52571-d23d-40f6-8855-605ca26aeb8b](https://github.com/Sheetalshee/Copy-File/assets/144979107/349aa118-895e-4dc1-94bb-2b15ad
+
+![243200120-e9e52571-d23d-40f6-8855-605ca26aeb8b](https://github.com/Sheetalshee/Copy-File/assets/144979107/ac6b1bea-c86d-47b9-a16b-10182384b827)
+
 ![243200124-f87ecf70-bf60-4f08-966b-a14d2708e9ed](https://github.com/Sheetalshee/Copy-File/assets/144979107/44cee774-2d81-44f5-887b-9d331ac33d3c)
 49ddde)
 
