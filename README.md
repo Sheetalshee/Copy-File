@@ -20,6 +20,9 @@ Display the output.
 ## PROGRAM:
 Developed By: SHEETAL.R
 Register No: 212223230206
+
+
+
 def copy(filename,newfile):
     with open(filename,'r') as fp:
         with open(newfile,'w') as fp1:
