@@ -1,4 +1,4 @@
-# Copy-File
+# copy-file
 ## AIM:
 To write a python program for copying the contents from one file to another file.
 ## EQUIPEMENT'S REQUIRED: 
@@ -6,35 +6,34 @@ PC
 Anaconda - Python 3.7
 ## ALGORITHM: 
 ### Step 1:
-Create a file.
-### Step 2: 
-Write some lines in that file. 
-### Step 3: 
-Create a python file.
-### Step 4:  
-Write a code to copy the content of the file to a new file.
-### Step 5: 
-Run the program.
-### Step 6: 
-Display the output.
+First we need to open the required file form which we need to copy the text.
+
+Again using the with keyword to open the empty file.
+
+### Step 2:
+Using keyword "with" to open the requied file.
+
+### Step 3:
+Again using the with keyword to open the empty file.
+
+### Step 4:
+The empty file is open by using 'W' which is used to write only.
+
+### Step 5:
+The four function is used to take each line from the main file.
+
 ## PROGRAM:
-Developed By: SHEETAL.R
-Register No: 212223230206
-
-def copy(filename,newfile):
-    with open(filename,'r') as fp:
-        with open(newfile,'w') as fp1:
-            data1=fp.read()
-            fp1.write(data1)
-filename=input("Enter an Existing File:")
-newfile=input("Enter a name for new file:")
-copy(filename,newfile)
-
+```
+with open ("text.txt") as fp:
+  with open("file.txt","w") as fp1:
+    line= fp.read()
+    fp1.write(line)
+```
 ### OUTPUT:
-![Screenshot 2024-05-09 112455](https://github.com/Sheetalshee/Copy-File/assets/144979107/c4370c37-766f-4d8f-a3bd-7616c37339b0)
-![Screenshot 2024-05-09 112527](https://github.com/Sheetalshee/Copy-File/assets/144979107/412e0868-b7c0-410c-b13c-ab40a6925750)
-
-
+![243200118-c30522e5-1f21-48eb-a61a-9bb220640fcf](https://github.com/Sheetalshee/Copy-File/assets/144979107/b4ad647f-5589-4331-a3f8-c6fb00ea3e9e)
+![243200120-e9e52571-d23d-40f6-8855-605ca26aeb8b](https://github.com/Sheetalshee/Copy-File/assets/144979107/349aa118-895e-4dc1-94bb-2b15ad
+![243200124-f87ecf70-bf60-4f08-966b-a14d2708e9ed](https://github.com/Sheetalshee/Copy-File/assets/144979107/44cee774-2d81-44f5-887b-9d331ac33d3c)
+49ddde)
 
 ## RESULT:
-Thus the program is written to copy the contents from one file to another file.
+Thus the program is written to copy the contents from one file to another file executed successfully.
